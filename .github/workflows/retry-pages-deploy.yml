@@ -14,10 +14,10 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.run_attempt < 3 }}
     runs-on: ubuntu-latest
     steps:
-      - name: Re-run failed jobs in managed Pages workflow
+      - name: Re-run managed Pages workflow run
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh api \
             --method POST \
-            /repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/rerun-failed-jobs
+            /repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/rerun
