@@ -62,6 +62,7 @@
 }
 
 .site-nav .button {
+  white-space: nowrap;
   font-size: 0.82rem;
   min-height: 2.75rem;
   padding: 0.7rem 1.15rem;
@@ -133,33 +134,51 @@
   justify-content: space-between;
   gap: var(--space-md);
   min-height: var(--header-height);
+  flex-wrap: nowrap;
 }
 
 .site-header__logo {
   display: flex;
   align-items: center;
   gap: var(--space-2xs);
+  flex: 0 0 auto;
 }
 
 .site-header__logo img {
   height: 2.25rem;
   width: auto;
+  max-width: none;
 }
 
 .site-nav {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: var(--space-md);
+  flex-wrap: nowrap;
+}
+
+.site-nav > .cluster {
+  flex-wrap: nowrap;
+}
+
+.site-nav .site-nav__list {
+  flex-wrap: nowrap;
+  gap: var(--space-2xs);
 }
 
 .site-nav__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: var(--space-md);
+  gap: var(--space-xs) var(--space-sm);
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.site-nav .site-nav__list a {
+  white-space: nowrap;
+  font-size: 0.95rem;
 }
 
 .site-nav__list a {
@@ -183,6 +202,13 @@
 .hero-layout {
   align-items: center;
   gap: clamp(var(--space-lg), 3vw, var(--space-3xl));
+}
+
+/* Inline grid-template-columns on hero blocks must collapse on narrow screens. */
+@media (max-width: 59.9375rem) {
+  .hero-layout {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 .hero-layout > * {
@@ -225,7 +251,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 63.9375rem) {
+@media (max-width: 74.9375rem) {
   .nav-toggle {
     display: inline-flex;
     align-items: center;
@@ -247,10 +273,15 @@
     display: none;
   }
 
-  .site-nav__list {
+  .site-nav .site-nav__list {
     flex-direction: column;
     align-items: flex-start;
     gap: var(--space-2xs);
+    flex-wrap: wrap;
+  }
+
+  .site-nav .cluster {
+    margin-top: var(--space-xs);
   }
 }
 
