@@ -14,22 +14,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/contact/"/>
   </url>
   <url>
-    <loc>https://divd.academy/courses/ethical-hacker/</loc>
-  </url>
-  <url>
     <loc>https://divd.academy/courses/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/courses/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/courses/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/courses/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/courses/introduction-to-cybersecurity/</loc>
-  </url>
-  <url>
-    <loc>https://divd.academy/events/codeweek/</loc>
-  </url>
-  <url>
-    <loc>https://divd.academy/events/live/</loc>
   </url>
   <url>
     <loc>https://divd.academy/faq/</loc>

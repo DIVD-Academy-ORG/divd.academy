@@ -3,7 +3,7 @@
 
 Rules:
 - every `index.html` becomes a directory URL (`courses/index.html` -> `/courses/`)
-- pages with `<meta name="robots" content="noindex">` are skipped
+- pages with `<meta name="robots" content="noindex">` or a meta refresh are skipped
 - legacy Google Sites exports are skipped (see SKIP_PREFIXES)
 - hreflang alternates are read from each page's own <link rel="alternate"> tags
 
@@ -16,17 +16,8 @@ from pathlib import Path
 
 BASE = "https://divd.academy"
 ROOT = Path(__file__).resolve().parent.parent
-SKIP_PREFIXES = (".worktrees/", "careers/", "about/partners/", "about/projects/")
-SKIP_FILES = {
-    "404.html",
-    "about.html",
-    "home.html",
-    "blog.html",
-    "news.html",
-    # redirect stubs to external services
-    "enquete/index.html",
-    "support/index.html",
-}
+SKIP_PREFIXES = (".worktrees/",)
+SKIP_FILES = {"404.html"}
 ALT_RE = re.compile(
     r'<link\s+rel="alternate"\s+hreflang="([^"]+)"\s+href="([^"]+)"', re.I
 )
@@ -46,6 +37,8 @@ def collect() -> list[tuple[str, list[tuple[str, str]]]]:
             continue
         html = path.read_text(encoding="utf-8", errors="replace")
         if re.search(r'name="robots"[^>]*noindex', html, re.I):
+            continue
+        if re.search(r'http-equiv="refresh"', html, re.I):  # redirect stub
             continue
         entries.append((page_url(rel), ALT_RE.findall(html)))
     return entries
