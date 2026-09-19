@@ -2,100 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://divd.academy/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/courses/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/courses/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/courses/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/courses/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/courses/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/courses/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/courses/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/courses/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/traineeships/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/traineeships/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/traineeships/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/traineeships/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/traineeships/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/traineeships/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/traineeships/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/traineeships/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/projects/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/projects/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/projects/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/projects/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/projects/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/projects/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/projects/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/projects/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/join/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/join/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/join/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/join/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/join/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/join/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/join/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/join/"/>
-  </url>
-  <url>
     <loc>https://divd.academy/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/about/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/about/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/about/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/about/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/about/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/partners/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/partners/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/partners/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/partners/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/partners/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/partners/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/partners/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/partners/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/faq/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/faq/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/faq/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/faq/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/faq/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/faq/"/>
   </url>
   <url>
     <loc>https://divd.academy/contact/</loc>
@@ -104,22 +14,34 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/contact/"/>
   </url>
   <url>
-    <loc>https://divd.academy/nl/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/contact/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/contact/"/>
+    <loc>https://divd.academy/courses/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/courses/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/courses/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/courses/"/>
   </url>
   <url>
-    <loc>https://divd.academy/internships/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/"/>
+    <loc>https://divd.academy/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/faq/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/faq/"/>
   </url>
   <url>
-    <loc>https://divd.academy/nl/stages/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/"/>
+    <loc>https://divd.academy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/internships/apply/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/apply/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/aanmelden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/apply/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/internships/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/faq/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/veelgestelde-vragen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/faq/"/>
   </url>
   <url>
     <loc>https://divd.academy/internships/how-it-works/</loc>
@@ -128,19 +50,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/how-it-works/"/>
   </url>
   <url>
-    <loc>https://divd.academy/nl/stages/hoe-het-werkt/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/how-it-works/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/hoe-het-werkt/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/how-it-works/"/>
+    <loc>https://divd.academy/internships/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/internships/learning-paths/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/learning-paths/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/leerpaden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/learning-paths/"/>
   </url>
   <url>
     <loc>https://divd.academy/internships/practical/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/practical/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/praktisch/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/practical/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/stages/praktisch/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/practical/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/praktisch/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/practical/"/>
@@ -152,52 +74,64 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/projects/"/>
   </url>
   <url>
-    <loc>https://divd.academy/nl/stages/projecten/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/projects/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/projecten/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/projects/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/internships/learning-paths/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/learning-paths/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/leerpaden/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/learning-paths/"/>
-  </url>
-  <url>
-    <loc>https://divd.academy/nl/stages/leerpaden/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/learning-paths/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/leerpaden/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/learning-paths/"/>
-  </url>
-  <url>
     <loc>https://divd.academy/internships/support/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/support/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/begeleiding/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/support/"/>
   </url>
   <url>
-    <loc>https://divd.academy/nl/stages/begeleiding/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/support/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/begeleiding/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/support/"/>
+    <loc>https://divd.academy/join/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/join/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/join/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/join/"/>
   </url>
   <url>
-    <loc>https://divd.academy/internships/faq/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/faq/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/veelgestelde-vragen/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/faq/"/>
+    <loc>https://divd.academy/nl/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/about/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/about/"/>
   </url>
   <url>
-    <loc>https://divd.academy/nl/stages/veelgestelde-vragen/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/faq/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/veelgestelde-vragen/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/faq/"/>
+    <loc>https://divd.academy/nl/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/contact/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/contact/"/>
   </url>
   <url>
-    <loc>https://divd.academy/internships/apply/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/apply/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/aanmelden/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/apply/"/>
+    <loc>https://divd.academy/nl/courses/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/courses/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/courses/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/courses/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/faq/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/faq/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/join/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/join/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/join/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/join/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/partners/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/partners/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/partners/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/partners/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/projects/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/projects/"/>
   </url>
   <url>
     <loc>https://divd.academy/nl/stages/aanmelden/</loc>
@@ -206,13 +140,79 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/apply/"/>
   </url>
   <url>
-    <loc>https://divd.academy/volunteers/</loc>
+    <loc>https://divd.academy/nl/stages/begeleiding/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/begeleiding/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/support/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/stages/hoe-het-werkt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/hoe-het-werkt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/how-it-works/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/stages/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/stages/leerpaden/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/learning-paths/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/leerpaden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/learning-paths/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/stages/praktisch/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/practical/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/praktisch/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/practical/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/stages/projecten/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/projects/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/projecten/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/projects/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/stages/veelgestelde-vragen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/internships/faq/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/stages/veelgestelde-vragen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/internships/faq/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/traineeships/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/traineeships/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/traineeships/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/traineeships/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/vrijwilligers/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/volunteers/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/vrijwilligers/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/volunteers/"/>
   </url>
   <url>
-    <loc>https://divd.academy/nl/vrijwilligers/</loc>
+    <loc>https://divd.academy/partners/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/partners/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/partners/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/partners/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/projects/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/projects/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/traineeships/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/traineeships/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/traineeships/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/traineeships/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/volunteers/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/volunteers/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/vrijwilligers/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/volunteers/"/>
