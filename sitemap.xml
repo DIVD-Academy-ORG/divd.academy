@@ -26,6 +26,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/faq/"/>
   </url>
   <url>
+    <loc>https://divd.academy/getting-started/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/aan-de-slag/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/getting-started/"/>
+  </url>
+  <url>
     <loc>https://divd.academy/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/"/>
@@ -84,6 +90,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/join/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/join/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/join/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/nl/aan-de-slag/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/aan-de-slag/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/getting-started/"/>
   </url>
   <url>
     <loc>https://divd.academy/nl/about/</loc>
