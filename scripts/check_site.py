@@ -7,6 +7,10 @@ Checks every HTML page in the repository for:
   hreflang, Open Graph image) - redirect stubs and 404.html are exempt
 - the GoatCounter analytics snippet
 - duplicated analytics snippets and obviously malformed URLs (`https://https://`)
+- media rules from issue #17: every <img> has alt plus width/height, footer images are
+  lazy-loaded and above-the-fold images are not
+- structured data from issue #34: every JSON-LD block parses, uses absolute URLs and has
+  sequential BreadcrumbList positions
 
 Exit code 1 when a problem is found, so it can run in CI.
 
@@ -14,6 +18,7 @@ Usage: python3 scripts/check_site.py
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -88,6 +93,51 @@ def check_analytics(page: Path, html: str, errors: list[str]) -> None:
         errors.append(f"{rel}: HubSpot tracker is back")
 
 
+IMG_RE = re.compile(r"<img\b[^>]*>", re.I)
+JSONLD_RE = re.compile(
+    r'<script type="application/ld\+json">(.*?)</script>', re.S | re.I
+)
+
+
+def check_media(page: Path, html: str, errors: list[str]) -> None:
+    """Media pipeline rules (issue #17)."""
+    rel = page.relative_to(ROOT)
+    if is_stub(html):
+        return
+    body = html.split("<body", 1)[-1]
+    footer = body.split("<footer", 1)[1] if "<footer" in body else ""
+    for tag in IMG_RE.findall(body):
+        if 'alt="' not in tag:
+            errors.append(f"{rel}: <img> without alt attribute: {tag[:80]}")
+        if not ('width="' in tag and 'height="' in tag):
+            errors.append(f"{rel}: <img> without width/height: {tag[:80]}")
+        in_footer = tag in footer
+        lazy = 'loading="lazy"' in tag
+        if in_footer and not lazy:
+            errors.append(f"{rel}: footer <img> should be lazy-loaded: {tag[:80]}")
+        if not in_footer and lazy:
+            errors.append(f"{rel}: above-the-fold <img> must not be lazy-loaded: {tag[:80]}")
+
+
+def check_structured_data(page: Path, html: str, errors: list[str]) -> None:
+    """Structured data must be valid JSON with an absolute production URL (issue #34)."""
+    rel = page.relative_to(ROOT)
+    for raw in JSONLD_RE.findall(html):
+        try:
+            data = json.loads(raw)
+        except json.JSONDecodeError as exc:
+            errors.append(f"{rel}: invalid JSON-LD ({exc.msg} at line {exc.lineno})")
+            continue
+        for match in re.findall(r'"(?:url|item|logo|image)":\s*"([^"]+)"', raw):
+            if not match.startswith(("https://", "mailto:")):
+                errors.append(f"{rel}: JSON-LD URL is not absolute: {match}")
+        if isinstance(data, dict) and data.get("@type") == "BreadcrumbList":
+            items = data.get("itemListElement", [])
+            positions = [item.get("position") for item in items]
+            if positions != list(range(1, len(items) + 1)):
+                errors.append(f"{rel}: BreadcrumbList positions are not sequential")
+
+
 def main() -> int:
     errors: list[str] = []
     checked = pages()
@@ -96,6 +146,8 @@ def main() -> int:
         check_links(page, html, errors)
         check_meta(page, html, errors)
         check_analytics(page, html, errors)
+        check_media(page, html, errors)
+        check_structured_data(page, html, errors)
 
     sitemap = ROOT / "sitemap.xml"
     if sitemap.exists():
