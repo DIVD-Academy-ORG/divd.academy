@@ -27,13 +27,35 @@
   <link rel="stylesheet" href="/css/tokens.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/components.css">
+  <!-- structured-data:breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "DIVD Academy",
+        "item": "https://divd.academy/nl/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Vrijwilliger bij DIVD Academy",
+        "item": "https://divd.academy/nl/vrijwilligers/"
+      }
+    ]
+  }
+  </script>
+  <!-- /structured-data:breadcrumb -->
 </head>
 <body>
   <a class="skip-link" href="#main-content">Ga naar inhoud</a>
   <header class="site-header">
     <div class="container site-header__inner">
       <a class="site-header__logo" href="/nl/" aria-label="DIVD Academy home">
-        <img src="/img/divd-academy.png" alt="DIVD Academy" width="160" height="40">
+        <img src="/img/divd-academy.png" alt="DIVD Academy" width="159" height="45" decoding="async" fetchpriority="high">
       </a>
       <button class="nav-toggle" type="button" data-nav-toggle hidden aria-expanded="false" aria-controls="site-nav">
         <span class="visually-hidden">Menu</span>
@@ -105,7 +127,7 @@
       <div class="site-footer__grid">
         <div>
           <a href="/nl/" aria-label="DIVD Academy home">
-            <img src="/img/divd-academy.png" alt="DIVD Academy" width="140" height="35">
+            <img src="/img/divd-academy.png" alt="DIVD Academy" width="142" height="40" loading="lazy" decoding="async">
           </a>
           <p>Leren &rarr; Oefenen &rarr; Groeien.</p>
         </div>
