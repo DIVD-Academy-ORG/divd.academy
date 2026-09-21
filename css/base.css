@@ -12,6 +12,8 @@
 html {
   color-scheme: dark;
   -webkit-text-size-adjust: 100%;
+  /* Sticky header must never obscure a focused or linked target (WCAG 2.2, 2.4.11). */
+  scroll-padding-top: calc(var(--header-height) + var(--space-sm));
 }
 
 body {
@@ -24,6 +26,9 @@ body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
+  /* Long words, URLs and e-mail addresses must not force horizontal scrolling
+     at 320 CSS pixels or 200% zoom (WCAG 1.4.10 Reflow). */
+  overflow-wrap: break-word;
 }
 
 ::selection {
@@ -38,9 +43,15 @@ svg {
   display: block;
 }
 
-/* Reflow at 320px and 200% text zoom without loss of content. */
+/* Reflow at 320px and 200% text zoom without loss of content.
+   overflow-x is a safety net only; layout itself must fit. */
 html {
   overflow-x: hidden;
+}
+
+/* Focused elements get scrolled clear of the sticky header. */
+:target {
+  scroll-margin-top: calc(var(--header-height) + var(--space-sm));
 }
 
 /* Skip link: visible on focus, first focusable element on every page. */
