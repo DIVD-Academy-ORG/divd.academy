@@ -14,7 +14,7 @@ hosting) &mdash; they cannot be committed in this repository.
 | people.divd.academy/about/partners | https://divd.academy/partners/ |
 | people.divd.academy/support | https://divd.academy/contact/ |
 | people.divd.academy/support/make-an-appointment | https://divd.academy/internships/support/ |
-| the.divd.academy/careers | https://divd.academy/careers/ |
+| the.divd.academy/careers | https://divd.academy/traineeships/ |
 | the.divd.academy/careers/volunteer | https://divd.academy/volunteers/ |
 | the.divd.academy/faq | https://divd.academy/faq/ |
 
