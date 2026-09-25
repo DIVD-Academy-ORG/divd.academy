@@ -41,7 +41,7 @@
 .button--primary {
   background: linear-gradient(180deg, #f7ef58 0%, var(--color-accent) 100%);
   color: var(--color-text-on-accent);
-  border-color: rgba(245, 231, 22, 0.75);
+  border-color: rgba(255, 215, 54, 0.75);
 }
 
 .button--primary:hover,
@@ -60,7 +60,7 @@
 .button--secondary:hover,
 .button--secondary:focus-visible {
   border-color: var(--color-accent);
-  background: rgba(245, 231, 22, 0.05);
+  background: rgba(255, 215, 54, 0.05);
   color: var(--color-accent);
 }
 
@@ -148,7 +148,8 @@
 }
 
 .site-header__logo img {
-  height: 2.25rem;
+  /* Brand guidelines: logo at least 50px high on screen. */
+  height: 3.125rem;
   width: auto;
   max-width: none;
 }
@@ -392,7 +393,7 @@
 /* Stat callout card (Charity-style pillar callout). */
 .stat-card {
   background: linear-gradient(180deg, rgba(24, 24, 24, 1), rgba(12, 12, 12, 1));
-  border: 1px solid rgba(245, 231, 22, 0.24);
+  border: 1px solid rgba(255, 215, 54, 0.24);
   border-radius: var(--radius-lg);
   padding: var(--space-lg);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.32);
@@ -401,7 +402,7 @@
 .hero-card {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, rgba(245, 231, 22, 0.08), rgba(17, 17, 17, 1));
+  background: linear-gradient(180deg, rgba(255, 215, 54, 0.08), rgba(17, 17, 17, 1));
 }
 
 .hero-card::before {
@@ -521,5 +522,24 @@
 @media (max-width: 900px) {
   .news-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Compact desktop nav between the hamburger breakpoint and wide screens, so the
+   50px brand logo (minimum per brand guidelines) and the longer NL labels fit
+   without horizontal overflow. */
+@media (min-width: 75rem) and (max-width: 87.5rem) {
+  .site-header__inner,
+  .site-nav {
+    gap: var(--space-sm);
+  }
+
+  .site-nav .site-nav__list {
+    gap: 0;
+  }
+
+  .site-nav .site-nav__list a {
+    padding-inline: var(--space-2xs);
+    font-size: 0.9rem;
   }
 }

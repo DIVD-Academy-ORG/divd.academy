@@ -3,19 +3,39 @@
   Implements issue #12: brand, surface, text, border, status and focus colors,
   spacing, type scale, content widths, radii, shadows and motion tokens.
 
-  Brand colors are fixed by repository policy:
-    - Academy yellow accent: #F5E716
-    - Logo/ink black: #1D1D1B
+  Brand colors follow the DIVD Academy brand guidelines (Merkrichtlijnen,
+  concept maart 2026, adopted 2026-09-25):
+    - Signal Yellow accent: #FFD736 (RGB 255, 215, 54)
+    - Near Black ink: #1E1E1E
+  Typography: Futura Bold for headings (falls back to self-hosted Jost, a free
+  Futura-style geometric sans, where Futura is not installed) and Nunito for
+  body text. Both web fonts are SIL OFL 1.1, see /fonts/.
   Base surfaces follow the suggested dark scale (#080808 / #0F0F0F / #161616),
   matching the calmer editorial tone of DIVD.Charity rather than the higher
   contrast of DIVD.Works, while keeping the Academy's own accent and logo.
 */
 
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url("/fonts/nunito-latin-var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/jost-latin-var.woff2") format("woff2");
+}
+
 :root {
   /* Brand */
-  --color-accent: #F5E716;
-  --color-accent-ink: #1D1D1B; /* text/icons placed on top of the accent */
-  --color-ink: #1D1D1B;
+  --color-accent: #FFD736;
+  --color-accent-ink: #1E1E1E; /* text/icons placed on top of the accent */
+  --color-ink: #1E1E1E;
 
   /* Surfaces (darkest to lightest) */
   --color-surface-0: #080808;
@@ -23,16 +43,16 @@
   --color-surface-2: #161616;
   --color-surface-3: #1C1C1A;
   --color-surface-raised: #1D1D1D;
-  --color-surface-border: rgba(245, 231, 22, 0.22);
-  --color-surface-glow: rgba(245, 231, 22, 0.08);
+  --color-surface-border: rgba(255, 215, 54, 0.22);
+  --color-surface-glow: rgba(255, 215, 54, 0.08);
 
   /* Text */
   --color-text-primary: #F5F5F0;
   --color-text-secondary: #C7C7C0;
   --color-text-muted: #9A9A93;
-  --color-text-on-accent: #1D1D1B;
+  --color-text-on-accent: #1E1E1E;
   --color-text-link: var(--color-accent);
-  --color-text-link-hover: #FFF4A3;
+  --color-text-link-hover: #FFE98F;
 
   /* Status */
   --color-status-success: #59C97A;
@@ -46,9 +66,10 @@
   --focus-ring-offset: 2px;
 
   /* Type scale (fluid, clamp-based) */
-  --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  --font-family-display: var(--font-family-base);
+  --font-family-base: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-display: Futura, "Futura PT", "Jost", "Century Gothic",
+    var(--font-family-base);
 
   --font-size-body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
   --font-size-small: clamp(0.875rem, 0.85rem + 0.1vw, 0.9375rem);
