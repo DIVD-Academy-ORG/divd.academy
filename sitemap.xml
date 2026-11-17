@@ -20,6 +20,16 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/courses/"/>
   </url>
   <url>
+    <loc>https://divd.academy/events/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/events/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/events/privacy/"/>
+  </url>
+  <url>
+    <loc>https://divd.academy/events/voorwaarden/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/events/voorwaarden/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://divd.academy/events/voorwaarden/"/>
+  </url>
+  <url>
     <loc>https://divd.academy/faq/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://divd.academy/faq/"/>
     <xhtml:link rel="alternate" hreflang="nl" href="https://divd.academy/nl/faq/"/>

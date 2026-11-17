@@ -5,7 +5,7 @@ Static, stdlib-only checks that complement scripts/check_site.py (links, metadat
 media, JSON-LD) and scripts/check_a11y.py (axe-core, needs a browser):
 
 content pages
-- <html lang> is set and matches the language of the path (/nl/... = nl)
+- <html lang> is set and matches the language of the path (/nl/... and /events/... = nl)
 - exactly one non-empty <title> and exactly one <h1>
 - the canonical is absolute, on https://divd.academy and equals the page's own URL
 - hreflang alternates are absolute, include x-default, point to existing content
@@ -56,6 +56,9 @@ EXTERNAL_ALLOWLIST = (
     "denhaag.nl",  # idem
     "substack.com",  # Cloudflare challenge for scripts
 )
+# Dutch-only pages that live outside /nl/ because their URL is fixed
+# (event privacy policy and terms, linked from event mails and forms).
+DUTCH_ONLY_PREFIXES = ("events/",)
 
 
 def pages() -> list[Path]:
@@ -104,7 +107,7 @@ def attr(pattern: str, html: str) -> list[str]:
 def check_content_page(page: Path, html: str, errors: list[str]) -> None:
     r = rel(page)
     lang = attr(r'<html[^>]*\blang="([^"]*)"', html)
-    expected = "nl" if r.startswith("nl/") else "en"
+    expected = "nl" if r.startswith(("nl/",) + DUTCH_ONLY_PREFIXES) else "en"
     if not lang or not lang[0]:
         errors.append(f"{r}: <html> has no lang attribute")
     elif lang[0].split("-")[0].lower() != expected:
